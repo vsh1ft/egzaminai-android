@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+       android:textSize="20sp"
+        android:minHeight="40dp"
+        android:layout_height="wrap_content"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/simple_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:focusable="true"
+            android:background="@drawable/gray"/>
+   <!-- <Spinner
+        android:id="@+id/programsChoice"
+        style="@style/Widget.AppCompat.Spinner"
+
+        android:layout_width="140dp"
+        android:dropDownWidth="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:dropDownVerticalOffset="66dp"
+        android:background="@null"
+
+        android:popupBackground="#B5B4B4"
+
+        >
+
+    </Spinner>-->
+</LinearLayout>
+    <!-- android:background="@drawable/drop_down_bg"-->

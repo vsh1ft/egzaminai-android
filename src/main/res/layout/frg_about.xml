@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/CODEDICTED"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/home_text"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/about_COD"
+            android:textColor="@color/home_text"
+            android:padding="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:text="@string/rights"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="2dp"
+            android:textColor="@color/home_text"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/legal_rights"
+            android:textColor="@color/home_text"
+            android:padding="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:text="@string/rate_me"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button2"/>
+
+       </LinearLayout>
+    </ScrollView>
+

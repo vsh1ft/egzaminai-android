@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:orientation="vertical"
+    android:background="@drawable/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:weightSum="4"
+
+
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <RelativeLayout
+        android:id="@+id/examLayout"
+        android:tag="exam"
+        android:clickable="true"
+        android:background="@drawable/transparent_selector"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/examButton"
+            android:tag="exam"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_dash_exams"
+            android:contentDescription="Egzaminų užduotys"
+
+
+            />
+
+        <TextView
+            android:layout_below="@id/examButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="@string/Home_exam_tasks"
+            android:textColor="@color/home_text"
+            android:fontFamily="normal"
+            android:textSize="@dimen/home_text_size"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:background="@color/list_items_divider_color" />
+
+    <RelativeLayout
+        android:id="@+id/puppLayout"
+        android:tag="puppExam"
+        android:clickable="true"
+        android:background="@drawable/transparent_selector"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/puppButton"
+            android:tag="puppExam"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_dash_exams"
+            android:contentDescription="Egzaminų užduotys"
+
+
+            />
+
+        <TextView
+            android:layout_below="@id/puppButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="@string/pupp_tasks"
+            android:textColor="@color/home_text"
+            android:fontFamily="normal"
+            android:textSize="@dimen/home_text_size"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:background="@color/list_items_divider_color" />
+
+</LinearLayout>
+    <View
+        android:id="@+id/divideris"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:divider="@android:color/transparent"
+        android:background="@color/list_items_divider_color" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/planaiLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent_selector"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:tag="plans">
+
+            <ImageView
+                android:id="@+id/planaiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dash_programs"
+                android:contentDescription="Egzaminų planai"
+                android:tag="plans" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/planaiButton"
+                android:layout_centerInParent="true"
+                android:fontFamily="normal"
+                android:text="@string/Home_exam_plans"
+                android:textColor="@color/home_text"
+                android:textSize="@dimen/home_text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/list_items_divider_color"
+            android:divider="@android:color/transparent" />
+
+        <RelativeLayout
+            android:id="@+id/puppPlanaiLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent_selector"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:tag="puppPlans">
+
+            <ImageView
+                android:id="@+id/puppPlanaiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dash_programs"
+                android:contentDescription="Egzaminų planai"
+                android:tag="plans" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/puppPlanaiButton"
+                android:layout_centerInParent="true"
+                android:fontFamily="normal"
+                android:text="@string/pupp_exam_plans"
+                android:textColor="@color/home_text"
+                android:textSize="@dimen/home_text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:divider="@android:color/transparent"
+        android:background="@color/list_items_divider_color" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+
+            android:id="@+id/datosLayout"
+            android:tag="calendar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:background="@drawable/transparent_selector_disabled"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            >
+
+            <ImageView
+                android:id="@+id/datosButton"
+                android:tag="calendar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="Egzaminų datos"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_dash_calendar_1" />
+
+
+
+            <TextView
+                android:layout_below="@id/datosButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/home_text"
+                android:textStyle="bold"
+                android:fontFamily="normal"
+                android:textSize="@dimen/home_text_size"
+                android:text="@string/Home_exams_date"
+                android:layout_centerInParent="true"
+
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:background="@color/list_items_divider_color" />
+        <RelativeLayout
+            android:id="@+id/puppDatosLayout"
+            android:tag="puppCalendar"
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:background="@drawable/transparent_selector_disabled"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            >
+
+            <ImageView
+                android:id="@+id/puppDatosButton"
+                android:tag="puppCalendar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="Egzaminų datos"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_dash_calendar_1" />
+
+
+
+            <TextView
+                android:layout_below="@id/puppDatosButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/home_text"
+                android:textStyle="bold"
+                android:fontFamily="normal"
+                android:textSize="@dimen/home_text_size"
+                android:text="@string/pupp_exams_date"
+                android:layout_centerInParent="true"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:divider="@android:color/transparent"
+        android:background="@color/list_items_divider_color" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/iskaitaLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent_selector"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:tag="iskaita">
+
+            >
+
+            <ImageView
+                android:id="@+id/iskaitaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_iskaitos"
+                android:contentDescription="Egzaminų įskaitos"
+                android:tag="iskaita" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iskaitaButton"
+                android:layout_centerInParent="true"
+                android:fontFamily="normal"
+                android:text="@string/Home_iskaita"
+                android:textColor="@color/home_text"
+                android:textSize="@dimen/home_text_size"
+                android:textStyle="bold"
+
+                />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:background="@color/list_items_divider_color" />
+
+
+    </LinearLayout>
+</LinearLayout>

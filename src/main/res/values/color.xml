@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Particiapnts -->
+    <color name="actionbar_background">#166E98</color>
+    <color name="actionbar_text">#ffffff</color>
+    <!-- others -->
+    <color name="text_color_subtitle">#5b5b5b</color>
+    <color name="list_items_divider_color">#c8cccccc</color>
+    <color name="blackTransparent">#10000000</color>
+    <color name="pressed_color">#8c8c8c</color>
+    <color name="default_color">#ffffff</color>
+    <color name="home_text">#6B6363</color>
+    <color name="yellow">#F5A623</color>
+    <color name="completed">#13b10e</color>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "457937537953",
+    "firebase_url": "https://egzaminai-99b18.firebaseio.com",
+    "project_id": "egzaminai-99b18",
+    "storage_bucket": "egzaminai-99b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457937537953:android:c68f4345c49a9ac8",
+        "android_client_info": {
+          "package_name": "com.project.egzaminai2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457937537953-oufgoeegseod1f3ba1t42h79mpje9k9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.egzaminai2",
+            "certificate_hash": "0C90357D88B7FF1D00E3109D0E8BD68395DF0ADA"
+          }
+        },
+        {
+          "client_id": "457937537953-c8g2dgegsbg1lgjbpdvhviruk20secqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCicaVNFblD32RymvhrzWrvmOLsrWPq4Hg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457937537953-c8g2dgegsbg1lgjbpdvhviruk20secqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

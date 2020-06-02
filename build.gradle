@@ -1,0 +1,57 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.61"
+        classpath 'com.google.gms:google-services:4.3.3'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: "androidx.navigation.safeargs"
+apply from: 'dependencies.gradle'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.project.egzaminai2"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName 'version'
+        testInstrumentationRunner "lt.boldadmin.sektor.mobile.android.test.acceptance.runner.AcceptanceTest"
+    }
+
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        main.java.srcDirs += 'src/main/java'
+        main.res.srcDirs += 'src/main/resources'
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+
+}

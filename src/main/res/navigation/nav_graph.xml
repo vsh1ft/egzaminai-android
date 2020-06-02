@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/dashboardFragment">
+
+    <fragment
+            android:id="@+id/dashboardFragment"
+            android:name="com.project.egzaminai2.activity.frg.HomeFragment"
+            tools:layout="@layout/home_table_layout">
+
+        <action
+                android:id="@+id/dashboardToExamNames"
+                app:destination="@id/examNamesFragment"/>
+        <action
+                android:id="@+id/dashboardToPrograms"
+                app:destination="@id/programFragment"/>
+        <action
+                android:id="@+id/dashboardToCredit"
+                app:destination="@id/creditFragment"/>
+
+        <action
+                android:id="@+id/dashboardToPuppExam"
+                app:destination="@id/puppExamFragment"/>
+        <action
+                android:id="@+id/dashboardToPuppPrograms"
+                app:destination="@id/puppProgramFragment"/>
+
+        <action
+                android:id="@+id/dashboardToExamDatesFragment"
+                app:destination="@id/calendarParentFragment"/>
+        <action
+                android:id="@+id/dashboardToPuppExamDatesFragment"
+                app:destination="@id/puppCalendarParentFragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/examNamesFragment"
+            android:name="com.project.egzaminai2.activity.frg.maturity.name.ExamNameFragment"
+            android:label="Egzaminai"
+            tools:layout="list_view_default">
+
+        <action
+                android:id="@+id/examNamesToExamYear"
+                app:destination="@id/examYearFragment"/>
+
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/examYearFragment"
+            android:name="com.project.egzaminai2.activity.frg.maturity.year.ExamYearsFragment"
+            tools:layout="@layout/tabs_layout">
+
+        <action
+                android:id="@+id/examYearsToPaper"
+                app:destination="@id/examPapersFragment"/>
+
+    </fragment>
+
+
+    <fragment
+            android:id="@+id/examPapersFragment"
+            android:name="com.project.egzaminai2.activity.frg.PaperFragment"
+            tools:layout="@layout/tabs_layout">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/programFragment"
+            android:name="com.project.egzaminai2.activity.frg.maturity.program.ProgramsListFragment"
+            tools:layout="@layout/home_table_layout">
+
+
+        <action
+                android:id="@+id/programToPaper"
+                app:destination="@id/examPapersFragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/creditFragment"
+            android:name="com.project.egzaminai2.activity.frg.maturity.credit.IskaitaPapersFragment"
+            tools:layout="@layout/home_table_layout">
+
+        <action
+                android:id="@+id/creditToPaper"
+                app:destination="@id/examPapersFragment"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/puppExamFragment"
+            android:name="com.project.egzaminai2.activity.frg.pupp.exams.PuppPapersFragment"
+            tools:layout="@layout/home_table_layout">
+
+        <action
+                android:id="@+id/puppExamToPapers"
+                app:destination="@id/examPapersFragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/puppProgramFragment"
+            android:name="com.project.egzaminai2.activity.frg.pupp.programs.PuppProgramsListFragment"
+            tools:layout="@layout/home_table_layout">
+
+        <action
+                android:id="@+id/puppProgramsToPapers"
+                app:destination="@id/examPapersFragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/calendarParentFragment"
+            android:name="com.project.egzaminai2.activity.frg.maturity.calendar.CalendarParentFragment"
+            tools:layout="@layout/home_table_layout">
+    </fragment>
+
+    <fragment
+            android:id="@+id/puppCalendarParentFragment"
+            android:name="com.project.egzaminai2.activity.frg.pupp.calendar.PuppCalendarParentFragment"
+            tools:layout="@layout/home_table_layout">
+    </fragment>
+</navigation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Egzaminai</string>
+    <string name="CODEDICTED">COD{E}DICTED</string>
+    <string name="app_version"> 1.2</string>
+    <string name="about_COD">Mobiliųjų aplikacijų kūrimas ir dizainas</string>
+    <string name="legal_rights">Egzaminų, planų ir tvarkaraščių autorinės teisės priklauso Nacionaliniam Egzaminų Centrui.
+        Svetainėje esantys testai sudaryti remiantis Nacionalinio Egzaminų Centro valstybiniais egzaminais, kurių užduotys
+        perdarytos į klausimus su pateikiamais atsakymų variantais. Visos originalių egzaminų autorinės teisės priklauso
+        Nacionaliniam Egzaminų Centrui.</string>
+    <string name="todo"><b>-</b> Pasiekimų sistema, leidžianti lyginti laiką, praleista besimokantis, su kitais programėlės vartotojais. \n\n<b>-</b> Progreso sekimas, naudojantis egzaminų programų duomenimis, bus galima pačiam sužymėti jau išmoktus dalykus, bei stebėti, ką dar reiktų išmokti.</string>
+    <string name="about">Apie</string>
+    <string name="update_list1">   <b>1.1v :</b></string>
+    <string name="update_list2">   <b>1.2v (Dabartinė versija) :</b></string>
+    <string name="update_list1_comp">- Pridėtas kalendorius \n- \"Seen\" statusas peržiūrėtiems egzaminams</string>
+    <string name="update_list2_comp">- Atnaujintas programų sąrašas \n- Pridėtas įskaitų sąrašas \n- \"Seen\" statusas visada išsisaugo \n- Pašalintas paieškos mygtukas \n- Pašalintas komentaro langas "Apie" skyrelyje</string>
+    <string name="input_text">Įveskite tekstą</string>
+    <string name="message_sent">Išsiųsta</string>
+    <string name="no_connection">Nėra interneto ryšio</string>
+    <string name="Home_exam_tasks">UŽDUOTYS</string>
+    <string name="pupp_tasks">PUPP UŽDUOTYS</string>
+    <string name="Home_exam_plans">PROGRAMOS</string>
+    <string name="pupp_exam_plans">PUPP PROGRAMOS</string>
+    <string name="Home_exams_date">DATOS</string>
+    <string name="pupp_exams_date">PUPP DATOS</string>
+    <string name="Home_iskaita">ĮSKAITOS</string>
+    <string name="Home_exams_about">APIE</string>
+    <string name="download_in_progress">Siunčiamas failas...</string>
+    <string name="achievement">PASIEKIMAI</string>
+    <string name="tracker">PROGRESAS</string>
+    <string name="rate_egzaminai">Įvertinti</string>
+    <string name="remind_later">Priminti vėliau</string>
+    <string name="no_thanks">Ne, Ačiū</string>
+    <string name="rate_detail">Jeigu jums patiko naudotis šia mobiliąja programėle, būtume dėkingi jei ją įvertintumėte. </string>
+    <string name="thanks">Ačiū už palaikymą!</string>
+    <string name="error">Įvyko klaida</string>
+    <string name="rights">Autorinės teisės:</string>
+    <string name="kuriama">Kuriama 1.3 versija:</string>
+    <string name="past_updates">Ankstesni atnaujinimai:</string>
+    <string name="rate_me">Įvertink mane</string>
+    <string name="answers">Atsakymai</string>
+    <string name="choose_exams">Parsisiųskite pasirinkitus egzaminus</string>
+    <string name="download_examsQ">Atsisiųsti egzaminus?</string>
+    <string name="download_again">Atsisiųsti iš naujo</string>
+    <string name="no_data_found">Duomenys rodomi tik Gegužės ir Birželio mėnesiais</string>
+    <string name="less_than_10_points">taškai</string>
+    <string name="more_than_10_points">taškų</string>
+    <string name="facebook_app_id">223581424769956</string>
+    <string-array name="subject_array">
+        <item>Lietuvių kalba</item>
+        <item>Informatika</item>
+        <item>Biologija</item>
+        <item>Matematika</item>
+        <item>Chemija</item>
+        <item>Fizika</item>
+        <item>Istorija</item>
+        <item>Užsienio kalbos</item>
+        <item>Geografija</item>
+        <item>Menai</item>
+        <item>Muzikologija</item>
+        <item>Technologijos</item>
+    </string-array>
+    <string-array name="pupp_exam_years">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+    </string-array>
+    <string-array name="iskaita_array">
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+    </string-array>
+    <string-array name="pupp_years">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+    </string-array>
+</resources>
